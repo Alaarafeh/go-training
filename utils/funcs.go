@@ -13,5 +13,6 @@ func Blah() string {
 
 func NewCool() NewCOOL {
 	id := uuid.NewString()
+
 	return NewCOOL{id: id}
 }
